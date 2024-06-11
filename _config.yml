@@ -41,16 +41,16 @@ navigation_links:
 
 # Footer icons
 footer_links:
-  - title: Feed
-    url: feed.xml
-    icon: fa fa-rss-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/danmanley/
+    icon: fa fa-linkedin-square
 
   - title: Twitter
-    url: https://twitter.com/jekyllrb
+    url: https://x.com/DanM400
     icon: fa fa-twitter-square
 
   - title: GitHub
-    url: https://github.com/forever-jekyll
+    url: https://github.com/danm400
     icon: fa fa-github-square
 
 # Enter your copyright text if you wish to override the default one.
