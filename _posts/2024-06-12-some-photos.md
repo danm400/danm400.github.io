@@ -12,11 +12,11 @@ However, now with somewhere to share them and tell the story/thoughts behind the
 
 In the meantime, here's a few of my facourite photos I've taken over the last few years:
 
-[![Photos](/assets/image/Bank.jpg)](/assets/image/Bank.jpg){:.glightbox}
-[![Photos](/assets/image/Wallaby.jpg)](/assets/image/Wallaby.jpg){:.glightbox}
-[![Photos](/assets/image/BrickLane.jpeg)](/assets/image/BrickLane.jpeg){:.glightbox}
-[![Photos](/assets/image/Clash.jpeg)](/assets/image/Clash.jpeg){:.glightbox}
-[![Photos](/assets/image/Wheel.jpeg)](/assets/image/Wheel.jpeg){:.glightbox}
+[![Photos](/assets/image/Bank.jpg)](/assets/image/Bank.jpg)
+[![Photos](/assets/image/Wallaby.jpg)](/assets/image/Wallaby.jpg)
+[![Photos](/assets/image/BrickLane.jpeg)](/assets/image/BrickLane.jpeg)
+[![Photos](/assets/image/Clash.jpeg)](/assets/image/Clash.jpeg)
+[![Photos](/assets/image/Wheel.jpeg)](/assets/image/Wheel.jpeg)
 
 
 
