@@ -11,7 +11,7 @@ However, now with somewhere to share them and
 
 [![Photos](/assets/image/Bank.jpg)](/assets/image/Bank.jpg){:.glightbox}
 [![Photos](/assets/image/Wallaby.jpg)](/assets/image/Wallaby.jpg){:.glightbox}
-[![Photos](/assets/image/BrickLane.jpeg)](/assets/image/Brick Lane.jpeg){:.glightbox}
+[![Photos](/assets/image/BrickLane.jpeg)](/assets/image/BrickLane.jpeg){:.glightbox}
 [![Photos](/assets/image/Clash.jpeg)](/assets/image/Clash.jpeg){:.glightbox}
 
 
