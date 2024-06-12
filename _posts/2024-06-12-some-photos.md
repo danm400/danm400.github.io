@@ -9,5 +9,5 @@ With the price of film and developing costs being so high recently, I haven't be
 
 However, now with somewhere to share them and 
 
-![Photos](/assets/image/Bank.jpg)(assets/image/Wallaby.jpg){:.glightbox}
-
+![Photos](/assets/image/Bank.jpg){:.glightbox}
+![Photos](assets/image/Wallaby.jpg){:.glightbox}
