@@ -5,7 +5,9 @@ categories: [photos]
 ---
 
 
-With the price of film and developing costs being so high recently, I haven't been out with a camera in quite some time sadly.
+With the price of film and developing costs being so high recently, I haven't been out with a camera in quite some time sadly!
 
-![Bank](/assets/image/000618960035.jpg)
+However, now with somewhere to share them and 
+
+![Bank](/assets/image/000618960035.jpg){:.glightbox}
 
