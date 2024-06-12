@@ -6,7 +6,7 @@ categories: [photos]
 
 
 With the price of film and developing costs being so high recently, I haven't been out with a camera in quite some time sadly!
-[![Photos](/assets/image/Wheel.jpeg)](/assets/image/Wheel.jpeg){:.glightbox}
+[![Photos](/assets/image/Wheel.jpeg)](/assets/image/Wheel.jpeg)
 <!--more-->
 However, now with somewhere to share them and tell the story/thoughts behind them, it's giving me some motivation to get back out there.
 
