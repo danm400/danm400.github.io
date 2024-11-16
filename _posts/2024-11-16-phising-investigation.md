@@ -14,7 +14,8 @@ Summary: An email from a known, usually safe client email address was received, 
 
 The email in question:
 
-<img src="assets/image/1phish1.png" alt="A screenshot of a suspicious email">
+<img src="danm400.github.io/assets/image
+/1phish1.png" alt="A screenshot of a suspicious email">
 
 Initially we weren't expecting anything from this client, and the email address was "correct," the first port of call was to make contact with the "sender" of the email to see if this was in fact sent by them, which they confirmed was NOT the case and they had indeed been compromised!
 
