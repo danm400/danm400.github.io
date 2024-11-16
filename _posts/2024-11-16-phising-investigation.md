@@ -4,9 +4,11 @@ title: A Phishing E-Mail Investigation!
 categories: [cybersec]
 ---
 
-Summary: An email from a known, usually safe client email address was received, which seemed to contain a link to a MS Word document. Open source investigation led to the conclusion that this email was a part of a wider phishing campaign targeting businesses by utilising Sqaurespace hosting infrastructure as part of the chain in order to appear legitimate. A number of squarespace domains matching the “username” format flagged on VirusTotal post and prior to the phishing attempt, indicating an ongoing campaign. .
+A suspect looking e-mail arrives in my inbox from a client, as i'm not expecting anything from them, I decide to dig deeper to find out where the e-mail is really from!
 
 <!--more→
+
+Summary: An email from a known, usually safe client email address was received, which seemed to contain a link to a MS Word document. Open source investigation led to the conclusion that this email was a part of a wider phishing campaign targeting businesses by utilising Sqaurespace hosting infrastructure as part of the chain in order to appear legitimate. A number of squarespace domains matching the “username” format flagged on VirusTotal post and prior to the phishing attempt, indicating an ongoing campaign.
 
 Investigation Details
 The email in question:
