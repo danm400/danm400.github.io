@@ -10,7 +10,8 @@ A suspect looking e-mail arrives in my inbox from a client, as i'm not expecting
 
 Summary: An email from a known, usually safe client email address was received, which seemed to contain a link to a MS Word document. Open source investigation led to the conclusion that this email was a part of a wider phishing campaign targeting businesses by utilising Sqaurespace hosting infrastructure as part of the chain in order to appear legitimate. A number of squarespace domains matching the “username” format flagged on VirusTotal post and prior to the phishing attempt, indicating an ongoing campaign.
 
-Investigation Details
+<h2></h2>Investigation Details</h2>
+
 The email in question:
 
 [![Photos](assets/image/1phish1.png)](assets/image/1phish1.png)
