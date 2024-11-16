@@ -16,7 +16,6 @@ In the meantime, here's a few of my facourite photos I've taken over the last fe
 [![Photos](/assets/image/Wallaby.jpg)](/assets/image/Wallaby.jpg)
 [![Photos](/assets/image/BrickLane.jpeg)](/assets/image/BrickLane.jpeg)
 [![Photos](/assets/image/Clash.jpeg)](/assets/image/Clash.jpeg)
-[![Photos](assets/image/Wheel.jpg)](assets/image/Wheel.jpg)
 <img src="/assets/image/Wheel.jpg" alt="A ferris wheel in the dark">
 
 
