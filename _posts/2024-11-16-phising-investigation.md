@@ -13,6 +13,7 @@ Summary: An email from a known, usually safe client email address was received, 
 Investigation Details
 The email in question:
 
+[![Photos](assets/image/1phish1.png)](assets/image/1phish1.png)
 
 Initially we weren't expecting anything from this client, and the email address was "correct," the first port of call was to make contact with the "sender" of the email to see if this was in fact sent by them, which they confirmed was NOT the case and they had indeed been compromised!
 
