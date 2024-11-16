@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Phishing EMail Investigation!
+title: A Phishing E-Mail Investigation!
 categories: [cybersec]
 ---
 
