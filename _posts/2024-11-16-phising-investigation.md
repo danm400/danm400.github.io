@@ -50,7 +50,7 @@ Searching through these domains using VirusTotal, an interesting detection is fo
 
 [![Photos](/assets/image/1phish7.jpeg)](/assets/image/1phish7.jpeg)
 
-I flagged the IOC’s i had uncovered with a friend, <a href="[https://x.com/Lawrence_Sec)" target="_blank]" rel=“noreferrer noopener”> @Lawrence_Sec < /a >, a Senior Threat  Intel Analyst at Recorded Future, who shed more light on the Squarespace domains. These were not using a DGA however were in fact referencing a square space username. 
+I flagged the IOC’s i had uncovered with a friend, @Lawrence_Sec, a Senior Threat  Intel Analyst at Recorded Future, who shed more light on the Squarespace domains. These were not using a DGA however were in fact referencing a square space username. 
 
 Prior research conducted by CheckPoint, indicates that the technique (BEC 3.0) of hosting malicious content on legitimate domains to bypass security solutions like VirusTotal is becoming more common, and is harder for end users to spot, as the original email and domain appear to be legitimate. This means that advanced protection like Click-Time Protection and URL Emulation are essential to protect businesses, along with user training to be aware of modern business email compromise.
 
