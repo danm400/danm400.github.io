@@ -22,7 +22,7 @@ The Investigation begins….!
 
 The first port of call was to examine the email headers for anything suspicious.  Both the DKIM and SPF checks were passed, which confirmed what our client had, their email address or domain has been compromised, likely by the same threat actor as part of the same phishing campaign and is now being used to carry out further phishing..
 
-
+[![Photos](/assets/image/1phish2.png)](/assets/image/1phish2.png)
 
 
 The next step was to  find a safe way to investigate any links or files within the email. In this case the endpoint within the “Open” button, to see where the domain  would take us.
