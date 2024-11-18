@@ -37,14 +37,16 @@ The subsequent resulting analysis in AnyRun identified the “Open” button con
 
 Analysing the URL in urlscan showed the effective URL was in fact nectarine-glockenspiel-xm2m[.]squarespace[.]com, and resolved to IP 198[.]185[.]159[.]176  also belonging to Squarespace.
 
-
+[![Photos](/assets/image/1phish4.png)](/assets/image/1phish4.png)
+[![Photos](/assets/image/1phish5.png)](/assets/image/1phish5.png)
 
 Digging deeper into the IP address on URLScan, my initial assessment was that the threat actor was using some kind of  domain generation algorithm, generating domains that follow a specific pattern of two random words followed by a 4 character string. Using the IP address as a pivot point within VirusTotal clearly showed a number of domains matching this format being flagged as malicious over a steady period of time post and prior analysis:
 
+[![Photos](/assets/image/1phish6.jpeg)](/assets/image/1phish6.jpeg)
 
 Searching through these domains using VirusTotal, an interesting detection is found under the domain, that it shows activity related to the AgentTesla Remote Access Trojan/Malware.
 
-
+[![Photos](/assets/image/1phish7.jpeg)](/assets/image/1phish7.jpeg)
 
 I flagged the IOC’s i had uncovered with a firiend, @Lawrence_Sec, a Senior Threat  Intel Analyst at Recorded Future, who shed more light on the Squarespace domains. These were not using a DGA however were in fact referencing a square space username. 
 
