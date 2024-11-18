@@ -33,13 +33,7 @@ AnyRun is an interactive malware analysis tool that can be used for dynamic and 
 
 The subsequent resulting analysis in AnyRun identified the “Open” button contained the URL  accesspage853[.]ubpages[.]com.
 
-
-
-
-
-
-
-
+[![Photos](/assets/image/1phish3.png)](/assets/image/1phish3.png)
 
 Analysing the URL in urlscan showed the effective URL was in fact nectarine-glockenspiel-xm2m[.]squarespace[.]com, and resolved to IP 198[.]185[.]159[.]176  also belonging to Squarespace.
 
