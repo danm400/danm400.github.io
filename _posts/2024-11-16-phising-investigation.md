@@ -54,6 +54,8 @@ I flagged the IOC’s i had uncovered with a friend, @Lawrence_Sec, a Senior Thr
 
 Prior research conducted by CheckPoint, indicates that the technique (BEC 3.0) of hosting malicious content on legitimate domains to bypass security solutions like VirusTotal is becoming more common, and is harder for end users to spot, as the original email and domain appear to be legitimate. This means that advanced protection like Click-Time Protection and URL Emulation are essential to protect businesses, along with user training to be aware of modern business email compromise.
 
+<a href="https://x.com/Lawrence_Sec" target="_blank" rel="nofollow noopener noreferrer">@Lawrence_Sec</a>
+
 
 
 
