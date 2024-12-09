@@ -1,0 +1,86 @@
+---
+layout: post
+title: Malware Traffic Analysis - Worms?
+categories: [cybersec]
+---
+
+Malware Traffic Analysis - Worms?
+
+I had some fun this week going through The latest Malware-Traffic-Analysis training exercise, Nematodes.
+
+[![Photos](assets/image/worms/cover.png)](assets/image/worms/cover.png)
+
+https://malware-traffic-analysis.net/2024/11/26/index.html
+
+It asks to write an Incident Report as if you were an Analyst in the SOC of a medical research facility, and you received alerts that someone in your network had been infected.
+
+Incident Report
+
+Executive Summary: At 4:30UTC on 26-11-2024, a Windows how was infected with NetSupport RAT, delivered from modandcracked[.]apk.
+
+Victim Details:
+IP Address: 10.11.6.183
+MAC Address: d0:57:7b:ce:fc:8b
+Hostname: DESKTOP-B8TQK49
+Account Name: oboomwald
+Victim Name: Oliver Q.. Boomwald 
+
+IoCs:
+NetSupport RAT Traffic: Multiple packets (e.g 25880) - POST hxxp://194[.]180[.]191[.]64/fakeutl.htm
+FAKEUPDATES/SocGoulish Malware dropped from modandcracked[.]apk
+
+
+
+From looking at the alerts, we can see that something malicious could be happening, between the IPs 10.11.6.183 and 194[.]180.191.[]64, and the “HTTP POST on unusual port” message gives us somewhere to start.
+
+Using a Wireshark filter to filter out HTTP Requests and domain names use in HTTPS or SSL/TLS traffic (Thanks to https://unit42.paloaltonetworks.com/using-wireshark-display-filter-expressions/ for this!) we can find these HTTP Post requests over port 443 with the destination IP of 194[.]180[.]191[.]64, which was identified by the alerts in the image above.
+
+
+
+The Source IP for these packets is 10.11.20.183, which would indicate an infected host on our Network.
+
+We want to find more details about this infected host, so using more filters from PaloAltos tutorials, we can apply the filter “nbns” to see if a NetBois Service Name (NBSN) can give us a Hostname.
+
+
+
+Success! We’ve got the Hostname “DESKTOP-B8TQK49” which has a MAC address of d0:57:7b:ce:fc:8b.
+
+So who was logged into this host when the infection occurred?
+
+As we can see from the Environment notes at the top, there is an AD Domain Controller, meaning there should be Kerberos traffic we can investigate.
+
+Using the filter “kerberos.CNameString” and expanding the Kerberos information in the Packet Details pane will give us the name “oboomwald.”
+
+
+
+We now have a clue to who the user was, but we can use LDAP to hopefully find a proper First and Last name by using the filter in the image below:
+
+
+
+So far we’ve identified some malicious traffic, the infected host and user account name. Next we need to dig deeper into the malicious traffic to see what its purpose is or what it’s doing.
+
+
+Searching for the potentially malicious IP (194[.]180.191.[]64) on VirusTotal show flags from Security Vendors indicating that it is indeed malicious:
+
+
+
+I was a bit lost as to what to look into next, so went back to the packet capture and looked through the HTTP & HTTPS traffic again, and noticed some domains which I thought could be suspect, modandcrackedapk[.]com.
+
+
+
+Searching through OSINT sources for the domain led me to ThreatFox, which indicates that the domain is an IoC for the FAKEUPDATES Malware:
+
+
+
+This FAKEUPDATES Malware is also known as SocGhoulish, which according to RedCanary “leverages drive-by-downloads masquerading as software updates for initial access.” 
+
+https://redcanary.com/threat-detection-report/threats/socgholish/
+
+
+
+
+
+
+
+
+
